@@ -116,13 +116,15 @@ Learning some more about text :
 Similar in shape but a different position 
 -   arc(100,120,50,50,270,90);
   - arc(150,120,50,50,90,270);
-  <img width="69" alt="Screenshot 2025-01-16 at 4 31 57 PM" src="https://github.com/user-attachments/assets/5cb7e28b-a0f7-4217-9041-2b0fe55ef3ba" />
+  <img width="50" alt="Screenshot 2025-01-16 at 4 31 57 PM" src="https://github.com/user-attachments/assets/5cb7e28b-a0f7-4217-9041-2b0fe55ef3ba" />
 
 2 Same shapes, 2 different commands. It turned out that I can do this shape with a quad instead of a triangle.
 -    triangle(250,95,250,120,275,120);
   -  triangle(275,120, 300,120, 300,145);
     
 -   quad(320,95, 320, 120, 370,120, 370,145);
+  <img width="100" alt="Screenshot 2025-01-16 at 4 36 51 PM" src="https://github.com/user-attachments/assets/9b15a9ea-d081-40ef-890d-923af5d44f87" />
+
 
 ### Commentaries
 - Triangle shape is quite tricky since we need to think of the position of 3 dots
