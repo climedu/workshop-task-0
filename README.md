@@ -104,7 +104,30 @@ Fill (255,0,0);
 Learning some more about text :
   - Video about how to add text https://www.youtube.com/watch?v=pZBwbE9r8y4
   - Video that discusses changing the font https://www.youtube.com/watch?v=Ge_Cq8WW4Lc
+  - The text can also use the right, center, or left allignment
+
+### Process
+
+1st Shape
+-   arc(50,20,50,50,0,180);
+- arc(50,70,50,50,180,0);
+<img width="50" alt="Screenshot 2025-01-16 at 4 27 44 PM" src="https://github.com/user-attachments/assets/b715bea5-abce-4bac-a5b0-a11dfdd6993d" />
+
+Similar in shape but a different position 
+-   arc(100,120,50,50,270,90);
+  - arc(150,120,50,50,90,270);
+  <img width="69" alt="Screenshot 2025-01-16 at 4 31 57 PM" src="https://github.com/user-attachments/assets/5cb7e28b-a0f7-4217-9041-2b0fe55ef3ba" />
+
+2 Same shapes, 2 different commands. It turned out that I can do this shape with a quad instead of a triangle.
+-    triangle(250,95,250,120,275,120);
+  -  triangle(275,120, 300,120, 300,145);
+    
+-   quad(320,95, 320, 120, 370,120, 370,145);
+
+### Commentaries
+- Triangle shape is quite tricky since we need to think of the position of 3 dots
+- Arc is also tricky since I want to make the same size/width/length of each shape and need to adjust the position, size, and angle. Need to try several times.
 
 ## Future Development
-- Make the shapes animate using coordinate location, size, color, etc.
+- Make the shapes animate using coordinate location, size, colour, etc.
 - Explore more about the arc function.
