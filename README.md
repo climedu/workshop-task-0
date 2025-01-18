@@ -1,5 +1,5 @@
 # workshop-task-0
-Here is a URL to the webpage for this project: https://climedu.github.io/workshop-task-0/
+Here is a URL to the webpage for this project: [Link](https://climedu.github.io/workshop-task-0/)
 
 ## Task
 - Create a p5.js editor that links to an external site. Login and sign up to the Processing Foundation's forumLinks to an external site.
@@ -33,26 +33,73 @@ Here is a URL to the webpage for this project: https://climedu.github.io/worksho
 
 ### Code Notes (Workshop):
 - Learn functions, set up, draw
+- Code :
+```ruby
+  function setup() {
+    createCanvas(400,400);
+  }
 
-![image  width = "400"](https://github.com/user-attachments/assets/062a183e-6744-467a-bc96-b13a2991bba7)
+  function draw () {
+    background(220);
+  }
+```
+
 - CreateCanvas(number -> x,y)
 - Background(colour code) can be number,number, number for RGB colour (max number is 255) just 1 number will be greyscale
+```ruby
+  function setup() {
+    createCanvas(400,400);
+  }
+  function draw (){
+    background(220);
 
-![image  width = "400"](https://github.com/user-attachments/assets/a4df25d3-7bb2-4cd0-9558-71f276ecb4d7)
+    rect(50,100,40,60);
+  }
+```
+
 
 - Rec (pos.x, pos.y, sizex, sizey)
+- Code:
+```ruby
+  function setup() {
+    createCanvas(400,400);
+  }
+  function draw (){
+    background(220);
 
-![image  width = "400"](https://github.com/user-attachments/assets/9bfe77be-74fa-4a80-985c-981e9331e641)
+    stroke(255,0,0);
+    fill(255,255,0);
+    rect(50,100,40,60);
+  }
+```
+
+![image  width = "300"](https://github.com/user-attachments/assets/9bfe77be-74fa-4a80-985c-981e9331e641)
 
 - Learn to use fill and stroke
 - Order is important; those 2 rectangles take the nearest colour up there.
 
-![image  width = "400"](https://github.com/user-attachments/assets/66628c37-00af-4178-90f9-f6accabc8e71)
+![image  width = "300"](https://github.com/user-attachments/assets/66628c37-00af-4178-90f9-f6accabc8e71)
 
 
 - Declare variable (Let x = 0)
 - Replace the x position of rec -> rect(x,100,40,60); since the x at the "let x = 0" , the x become 0
-- Adding "x = x+3" making the rectangle move the the right 3px every time
+- Adding "x = x+3" making the rectangle move the the right 3px every 
+- Code :
+```ruby
+    let x = 0;
+
+    function setup() {
+    createCanvas(400,400);
+  }
+  function draw (){
+    background(220);
+
+    fill(255,255,0);
+    rect(50,100,40,60);
+
+    x = x+3;
+  }
+```
 
 ![image](https://github.com/user-attachments/assets/a5c696d3-13e0-4479-9b10-299096a60334)
 - Console.log(x); *adding the console view to see the number all the time)
@@ -69,12 +116,13 @@ It's for resetting the x to 0 when reaching the width of the canvas
 Adding // at the beginning of the lines not gonna be executed
 
 Using if
-
+```ruby
 If(mouseX>width/2 {
 Fill(255,0,0);
 }else {
 Fill (255,0,0);
 //for changing colour when moving the mouse right,t left
+```
 
 ## Task Journey
 - Create p5.js editor login
