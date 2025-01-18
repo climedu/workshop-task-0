@@ -143,35 +143,35 @@ Fill (255,0,0);
 <img width="300" alt="Screenshot 2025-01-16 at 4 09 44 PM" src="https://github.com/user-attachments/assets/8b5e40a6-83a8-4774-93ef-245a6c90f607" />
 <img width="400" alt="Screenshot 2025-01-16 at 4 10 04 PM" src="https://github.com/user-attachments/assets/bc17e838-44d1-4e3d-ad18-8011cfacfd44" />
 
-  Learning some new things about arc and colour function through this video : https://www.youtube.com/shorts/4E4MpfG4jiE?si=k_oW5KSt4clCz_hu
+  Learning some new things about arc and colour function through this [video: ](https://www.youtube.com/shorts/4E4MpfG4jiE?si=k_oW5KSt4clCz_hu)
   - Need to use Degree mode to create more precise how full is the circle going to be
   - The position of the number is also matters. Like the pics bellow, 180 first or 0 first
     ![image](https://github.com/user-attachments/assets/27b0deb1-02f1-4728-91f8-09aabcc5db5e)
 ![image](https://github.com/user-attachments/assets/26171971-e19d-4ae8-a9b9-53e299406248)
 
 Learning some more about text :
-  - Video about how to add text https://www.youtube.com/watch?v=pZBwbE9r8y4
-  - Video that discusses changing the font https://www.youtube.com/watch?v=Ge_Cq8WW4Lc
+  - [Video about how to add text](https://www.youtube.com/watch?v=pZBwbE9r8y4)
+  - [Video that discusses changing the font]( https://www.youtube.com/watch?v=Ge_Cq8WW4Lc)
   - The text can also use the right, center, or left allignment
 
 ### Process
 
 1st Shape
--   arc(50,20,50,50,0,180);
+- arc(50,20,50,50,0,180);
 - arc(50,70,50,50,180,0);
-<img width="50" alt="Screenshot 2025-01-16 at 4 27 44 PM" src="https://github.com/user-attachments/assets/b715bea5-abce-4bac-a5b0-a11dfdd6993d" />
+<img width="100" alt="Screenshot 2025-01-16 at 4 27 44 PM" src="https://github.com/user-attachments/assets/b715bea5-abce-4bac-a5b0-a11dfdd6993d" />
 
 Similar in shape but a different position 
 -   arc(100,120,50,50,270,90);
   - arc(150,120,50,50,90,270);
-  <img width="50" alt="Screenshot 2025-01-16 at 4 31 57 PM" src="https://github.com/user-attachments/assets/5cb7e28b-a0f7-4217-9041-2b0fe55ef3ba" />
+  <img width="100" alt="Screenshot 2025-01-16 at 4 31 57 PM" src="https://github.com/user-attachments/assets/5cb7e28b-a0f7-4217-9041-2b0fe55ef3ba" />
 
 2 Same shapes, 2 different commands. It turned out that I can do this shape with a quad instead of a triangle.
 -    triangle(250,95,250,120,275,120);
   -  triangle(275,120, 300,120, 300,145);
     
 -   quad(320,95, 320, 120, 370,120, 370,145);
-  <img width="100" alt="Screenshot 2025-01-16 at 4 36 51 PM" src="https://github.com/user-attachments/assets/9b15a9ea-d081-40ef-890d-923af5d44f87" />
+  <img width="200" alt="Screenshot 2025-01-16 at 4 36 51 PM" src="https://github.com/user-attachments/assets/9b15a9ea-d081-40ef-890d-923af5d44f87" />
 
 
 ### Commentaries
